@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+
+<body>
+
+    <header class="navigation">
+        <ul class="buttons">
+            <li><a href="index.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>    
+        <img id="logo-image" src="images/logo.png"/>
+    </header>
+
+    <section class="hero-section">
+        <div class="content">
+            <h1>Illias A. Dissi</h1>
+            <img id="profile-image" src="images/reshot-min.jpg"/>
+            <p>Hi I’m Illias, an aspiring UX/UI designer dedicated to crafting impactful user-centric digital experiences. I have a background in web development, and bring a blend of technical skills and creativity to every project.</p>            
+
+            
+            <button id="openContactForm">Get in Touch</button>
+
+            <div id="modalOverlay"></div>
+                <div class="contactFormContainer">
+                    <!-- <span class="close">&times;</span> -->
+                    <form id="contactForm">
+                        <div id="formHeader"><h2>Contact Me</h2></div>
+                        <div class="formGroup">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="formGroup">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="formGroup">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+        </div>
+
+        
+
+    </section>
+
+    <footer>
+        <nav class="navigation">
+            <ul class="buttons">
+                <li><a href="index.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+  
+  </div>
+        <div id="social-media-links">
+            <p><a href="#">LinkedIn</a></p>
+            <p><a href="#">X/Twitter</a></p>
+            <p><a href="#">Email</a></p>
+        </div>
+    </footer>
+
+</body>
+
+<!-- Add the script tag to jQuery below. -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/index.js"></script>
+
+</html>
